@@ -5,7 +5,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0df8035d-f0b8-47ce-b954-4d63a44172aa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/dinesh/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/dinesh/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/dinesh/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/dinesh/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/dinesh/service/product/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/dinesh/service/product/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/dinesh/service/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/dinesh/service/product/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/DreamShopsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/DreamShopsApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/controller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/controller/CartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/controller/CartItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/controller/CartItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/controller/ImageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/controller/ImageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/data/DataInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/data/DataInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/data/RoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/data/RoleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/dto/CartDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/dto/CartDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/dto/CartItemDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/dto/CartItemDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/dto/ImageDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/dto/ImageDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/dto/OrderDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/dto/OrderDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/dto/OrderItemDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/dto/OrderItemDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/dto/ProductDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/dto/ProductDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/dto/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/enums/CouponType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/enums/CouponType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/enums/OrderStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/enums/OrderStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/exceptions/AlreadyExistsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/exceptions/AlreadyExistsException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/exceptions/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/exceptions/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/exceptions/InvalidCouponException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/exceptions/InvalidCouponException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/exceptions/ProductNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/exceptions/ProductNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/exceptions/ResourceNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/exceptions/ResourceNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/model/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/model/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/model/CartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/model/CartItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/model/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/model/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/model/Image.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/model/Image.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/model/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/model/OrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/model/OrderItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/model/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/repository/CartItemRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/repository/CartItemRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/repository/CartRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/repository/CartRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/repository/CategoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/repository/CategoryRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/repository/ImageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/repository/ImageRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/repository/OrderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/repository/OrderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/repository/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/request/AddProductRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/request/AddProductRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/request/CreateUserRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/request/CreateUserRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/request/LoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/request/LoginRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/request/ProductUpdateRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/request/ProductUpdateRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/request/UserUpdateRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/request/UserUpdateRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/response/ApiResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/response/ApiResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/response/JwtResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/response/JwtResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/security/config/ShopConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/security/config/ShopConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/security/jwt/AuthTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/security/jwt/AuthTokenFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/security/jwt/JwtAuthEntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/security/jwt/JwtAuthEntryPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/security/jwt/JwtUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/security/jwt/JwtUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/security/user/ShopUserDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/security/user/ShopUserDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/security/user/ShopUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/security/user/ShopUserDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/service/cart/CartItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/service/cart/CartItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/service/cart/CartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/service/cart/CartService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/service/cart/ICartItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/service/cart/ICartItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/service/cart/ICartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/service/cart/ICartService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/service/category/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/service/category/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/service/category/ICategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/service/category/ICategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/service/image/IImageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/service/image/IImageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/service/image/ImageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/service/image/ImageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/service/order/IOrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/service/order/IOrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/service/order/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/service/order/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/service/product/IProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/service/product/IProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/service/product/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/service/product/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/service/user/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/service/user/IUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/dinesh/service/user/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/dinesh/service/user/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/in/dinesh/DreamShopsApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/in/dinesh/DreamShopsApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +103,12 @@
     &quot;assignee&quot;: &quot;chinthadinesh15&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/chinthadinesh15/dream-shops.git",
-    "accountId": "0625f770-930d-46fb-a379-a9f75e8a248f"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/chinthadinesh15/dream-shops.git&quot;,
+    &quot;accountId&quot;: &quot;0625f770-930d-46fb-a379-a9f75e8a248f&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -50,32 +127,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.DreamShopsApplication (1).executor": "Run",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "develop",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/dream-shops",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.DreamShopsApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/dream-shops&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\ASUS\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="3ba2d04f-32d7-4946-92cb-06f2ff9e8b06" reportId="dream-shops/qodana/2025-12-07" />
@@ -134,5 +211,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

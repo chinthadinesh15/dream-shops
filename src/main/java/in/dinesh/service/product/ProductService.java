@@ -10,10 +10,14 @@ import in.dinesh.model.Product;
 import in.dinesh.repository.CategoryRepository;
 import in.dinesh.repository.ImageRepository;
 import in.dinesh.repository.ProductRepository;
+import in.dinesh.repository.ProductSpecification;
 import in.dinesh.request.AddProductRequest;
 import in.dinesh.request.ProductUpdateRequest;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -29,8 +33,9 @@ public class ProductService implements IProductService {
 
     @Override
     public Product addProduct(AddProductRequest request) {
-        if (productExists(request.getName(), request.getBrand())){
-            throw new AlreadyExistsException(request.getBrand() +" "+request.getName()+ " already exists, you may update this product instead!");
+        if (productExists(request.getName(), request.getBrand())) {
+            throw new AlreadyExistsException(request.getBrand() + " " + request.getName()
+                    + " already exists, you may update this product instead!");
         }
         Category category = Optional.ofNullable(categoryRepository.findByName(request.getCategory().getName()))
                 .orElseGet(() -> {
@@ -41,7 +46,7 @@ public class ProductService implements IProductService {
         return productRepository.save(createProduct(request, category));
     }
 
-    private boolean productExists(String name , String brand) {
+    private boolean productExists(String name, String brand) {
         return productRepository.existsByNameAndBrand(name, brand);
     }
 
@@ -52,30 +57,30 @@ public class ProductService implements IProductService {
                 request.getPrice(),
                 request.getInventory(),
                 request.getDescription(),
-                category
-        );
+                category);
     }
 
     @Override
     public Product getProductById(Long id) {
         return productRepository.findById(id)
-                .orElseThrow(()-> new ResourceNotFoundException("Product not found!"));
+                .orElseThrow(() -> new ResourceNotFoundException("Product not found!"));
     }
 
-  @Override
+    @Override
     public void deleteProductById(Long id) {
         productRepository.findById(id)
                 .ifPresentOrElse(productRepository::delete,
-                        () -> {throw new ResourceNotFoundException("Product not found!");});
+                        () -> {
+                            throw new ResourceNotFoundException("Product not found!");
+                        });
     }
-
 
     @Override
     public Product updateProduct(ProductUpdateRequest request, Long productId) {
         return productRepository.findById(productId)
-                .map(existingProduct -> updateExistingProduct(existingProduct,request))
-                .map(productRepository :: save)
-                .orElseThrow(()-> new ResourceNotFoundException("Product not found!"));
+                .map(existingProduct -> updateExistingProduct(existingProduct, request))
+                .map(productRepository::save)
+                .orElseThrow(() -> new ResourceNotFoundException("Product not found!"));
     }
 
     private Product updateExistingProduct(Product existingProduct, ProductUpdateRequest request) {
@@ -87,7 +92,7 @@ public class ProductService implements IProductService {
 
         Category category = categoryRepository.findByName(request.getCategory().getName());
         existingProduct.setCategory(category);
-        return  existingProduct;
+        return existingProduct;
 
     }
 
@@ -128,7 +133,16 @@ public class ProductService implements IProductService {
 
     @Override
     public List<ProductDto> getConvertedProducts(List<Product> products) {
-      return products.stream().map(this::convertToDto).toList();
+        return products.stream().map(this::convertToDto).toList();
+    }
+
+    @Override
+    public Page<Product> getProductsWithFilters(String search, String category, String brand, Pageable pageable) {
+        Specification<Product> spec = Specification.where(ProductSpecification.hasSearchQuery(search))
+                .and(ProductSpecification.hasCategory(category))
+                .and(ProductSpecification.hasBrand(brand));
+
+        return productRepository.findAll(spec, pageable);
     }
 
     @Override
